@@ -1,0 +1,127 @@
+asdf: 2 Console was cleared
+asdf: 49 {
+    "data": [
+        {
+            "id": 8272222,
+            "sd": "2017-04-22T20:15:00.000+0400",
+            "h": "Chelsea FC",
+            "a": "Tottenham Hotspur",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.8,
+                        "id": 526327573
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.95,
+                        "id": 526327726
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.36,
+                        "id": 526327936
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.47,
+                        "id": 526327927
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.48,
+                        "id": 526328094
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.86,
+                        "id": 526327681
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.9,
+                        "id": 526327642
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.75,
+                        "id": 526327605
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.05,
+                        "id": 526327762
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8283724,
+            "sd": "2017-04-23T18:00:00.000+0400",
+            "h": "Arsenal FC",
+            "a": "Manchester City",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.5,
+                        "id": 527327349
+                    },
+                    {
+                        "name": "no",
+                        "value": 2.5,
+                        "id": 527327519
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.25,
+                        "id": 527327550
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.26,
+                        "id": 527327246
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.98,
+                        "id": 527327666
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.96,
+                        "id": 527327403
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.38,
+                        "id": 527327473
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 2.55,
+                        "id": 527327449
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.55,
+                        "id": 527327561
+                    }
+                ]
+            }
+        }
+    ]
+}

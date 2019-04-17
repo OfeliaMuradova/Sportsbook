@@ -1,0 +1,1102 @@
+{
+    "data": [
+        {
+            "id": 4700917,
+            "sd": "2017-04-30T19:30:00.000+0400",
+            "h": "1899 Hoffenheim",
+            "a": "Eintracht Frankfurt",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.75,
+                        "id": 551045846
+                    },
+                    {
+                        "name": "no",
+                        "value": 2.1,
+                        "id": 551046066
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.24,
+                        "id": 551045771
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.25,
+                        "id": 551045656
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.17,
+                        "id": 551046014
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.24,
+                        "id": 551046096
+                    },
+                    {
+                        "name": "2",
+                        "value": 3.78,
+                        "id": 551046063
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 2.15,
+                        "id": 550977072
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.7,
+                        "id": 550977073
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700924,
+            "sd": "2017-04-22T17:30:00.000+0400",
+            "h": "Hertha BSC",
+            "a": "VFL Wolfsburg",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.95,
+                        "id": 543347280
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.85,
+                        "id": 543347349
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.35,
+                        "id": 543342581
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.42,
+                        "id": 543342576
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.55,
+                        "id": 543342577
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.74,
+                        "id": 543342583
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.05,
+                        "id": 543342578
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.7,
+                        "id": 543346837
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.1,
+                        "id": 543347333
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700940,
+            "sd": "2017-04-28T22:30:00.000+0400",
+            "h": "Bayer Leverkusen",
+            "a": "FC Schalke 04",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 2.15,
+                        "id": 550984583
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.7,
+                        "id": 550984585
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.31,
+                        "id": 550984367
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.82,
+                        "id": 550984138
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.3,
+                        "id": 550984394
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.48,
+                        "id": 550983693
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.67,
+                        "id": 550984120
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.8,
+                        "id": 550976103
+                    },
+                    {
+                        "name": "under",
+                        "value": 2,
+                        "id": 550976104
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700943,
+            "sd": "2017-04-22T17:30:00.000+0400",
+            "h": "Eintracht Frankfurt",
+            "a": "FC Augsburg",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 2.1,
+                        "id": 543359527
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.7,
+                        "id": 543359645
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.32,
+                        "id": 543359766
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.2,
+                        "id": 543359844
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.07,
+                        "id": 543359913
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.3,
+                        "id": 543359419
+                    },
+                    {
+                        "name": "2",
+                        "value": 3.53,
+                        "id": 543359607
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.15,
+                        "id": 543359469
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.7,
+                        "id": 543359586
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700948,
+            "sd": "2017-04-29T17:30:00.000+0400",
+            "h": "RB Leipzig",
+            "a": "FC Ingolstadt",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 2,
+                        "id": 551004611
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.8,
+                        "id": 551004946
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.2,
+                        "id": 551003179
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.77,
+                        "id": 551003177
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.09,
+                        "id": 551003178
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.12,
+                        "id": 551003174
+                    },
+                    {
+                        "name": "2",
+                        "value": 5.63,
+                        "id": 551003180
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.8,
+                        "id": 550976099
+                    },
+                    {
+                        "name": "under",
+                        "value": 2,
+                        "id": 550976100
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700949,
+            "sd": "2017-04-23T17:30:00.000+0400",
+            "h": "SC Freiburg",
+            "a": "Bayer Leverkusen",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 2.2,
+                        "id": 543346929
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.65,
+                        "id": 543347477
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.32,
+                        "id": 543342558
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.73,
+                        "id": 543342556
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.33,
+                        "id": 543342563
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.46,
+                        "id": 543342561
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.53,
+                        "id": 543342557
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.8,
+                        "id": 543347135
+                    },
+                    {
+                        "name": "under",
+                        "value": 2,
+                        "id": 543347372
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700952,
+            "sd": "2017-04-22T17:30:00.000+0400",
+            "h": "Hamburger SV",
+            "a": "SV Darmstadt 98",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.85,
+                        "id": 543351216
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.95,
+                        "id": 543351356
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.22,
+                        "id": 543342574
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.1,
+                        "id": 543342568
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.87,
+                        "id": 543342571
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.14,
+                        "id": 543342572
+                    },
+                    {
+                        "name": "2",
+                        "value": 6.02,
+                        "id": 543342573
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 2.15,
+                        "id": 543346596
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.65,
+                        "id": 543346597
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700954,
+            "sd": "2017-04-29T17:30:00.000+0400",
+            "h": "Werder Bremen",
+            "a": "Hertha BSC",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 2.15,
+                        "id": 551004172
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.7,
+                        "id": 551005493
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 551003210
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.68,
+                        "id": 551003209
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.36,
+                        "id": 551003211
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.59,
+                        "id": 551003212
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.34,
+                        "id": 551003216
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.95,
+                        "id": 550976093
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.8,
+                        "id": 550976094
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700956,
+            "sd": "2017-04-22T20:30:00.000+0400",
+            "h": "Monchengladbach",
+            "a": "Borussia Dortmund",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.5,
+                        "id": 543356911
+                    },
+                    {
+                        "name": "no",
+                        "value": 2.55,
+                        "id": 543357981
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.31,
+                        "id": 543355606
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.34,
+                        "id": 543355601
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.81,
+                        "id": 543355605
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.56,
+                        "id": 543355602
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.54,
+                        "id": 543355607
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.55,
+                        "id": 543356997
+                    },
+                    {
+                        "name": "under",
+                        "value": 2.4,
+                        "id": 543357371
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700958,
+            "sd": "2017-04-22T17:30:00.000+0400",
+            "h": "FC Ingolstadt",
+            "a": "Werder Bremen",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.6,
+                        "id": 543356567
+                    },
+                    {
+                        "name": "no",
+                        "value": 2.3,
+                        "id": 543357166
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 543335445
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.71,
+                        "id": 543335441
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.37,
+                        "id": 543335442
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.61,
+                        "id": 543335440
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.37,
+                        "id": 543335446
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 2.1,
+                        "id": 543357610
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.75,
+                        "id": 543357992
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700962,
+            "sd": "2017-04-21T22:30:00.000+0400",
+            "h": "1 FC Cologne",
+            "a": "1899 Hoffenheim",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.6,
+                        "id": 543351048
+                    },
+                    {
+                        "name": "no",
+                        "value": 2.25,
+                        "id": 543351409
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.34,
+                        "id": 543329239
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.59,
+                        "id": 543329234
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.42,
+                        "id": 543329247
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.11,
+                        "id": 543329233
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.72,
+                        "id": 543329241
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 2.05,
+                        "id": 543346634
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.75,
+                        "id": 543346636
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700963,
+            "sd": "2017-04-29T17:30:00.000+0400",
+            "h": "SV Darmstadt 98",
+            "a": "SC Freiburg",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.7,
+                        "id": 551004126
+                    },
+                    {
+                        "name": "no",
+                        "value": 2.1,
+                        "id": 551005608
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 551003192
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.35,
+                        "id": 551003191
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.67,
+                        "id": 551003198
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.32,
+                        "id": 551003196
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.58,
+                        "id": 551003193
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.9,
+                        "id": 550976095
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.85,
+                        "id": 550976096
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700964,
+            "sd": "2017-04-23T19:30:00.000+0400",
+            "h": "FC Schalke 04",
+            "a": "RB Leipzig",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.7,
+                        "id": 543357563
+                    },
+                    {
+                        "name": "no",
+                        "value": 2.15,
+                        "id": 543358427
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 543358408
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.41,
+                        "id": 543358065
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.6,
+                        "id": 543358645
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.13,
+                        "id": 543358528
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.7,
+                        "id": 543357805
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.95,
+                        "id": 543357482
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.85,
+                        "id": 543358180
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700967,
+            "sd": "2017-04-29T20:30:00.000+0400",
+            "h": "VFL Wolfsburg",
+            "a": "Bayern Munich",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.95,
+                        "id": 551003692
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.85,
+                        "id": 551004048
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.2,
+                        "id": 551003200
+                    },
+                    {
+                        "name": "1x",
+                        "value": 2.82,
+                        "id": 551003203
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.11,
+                        "id": 551003204
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 5.52,
+                        "id": 551003202
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.14,
+                        "id": 551003206
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.65,
+                        "id": 550976107
+                    },
+                    {
+                        "name": "under",
+                        "value": 2.25,
+                        "id": 550976108
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700973,
+            "sd": "2017-04-30T17:30:00.000+0400",
+            "h": "FC Augsburg",
+            "a": "Hamburger SV",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.95,
+                        "id": 551084614
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.8,
+                        "id": 551084905
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.35,
+                        "id": 551084590
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.52,
+                        "id": 551084955
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.45,
+                        "id": 551085014
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.81,
+                        "id": 551084549
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.98,
+                        "id": 551084941
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.05,
+                        "id": 550977070
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.75,
+                        "id": 550977071
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700974,
+            "sd": "2017-04-22T17:30:00.000+0400",
+            "h": "Bayern Munich",
+            "a": "FSV Mainz 05",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.7,
+                        "id": 543357384
+                    },
+                    {
+                        "name": "yes",
+                        "value": 2.1,
+                        "id": 543358023
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.12,
+                        "id": 543333722
+                    },
+                    {
+                        "name": "x2",
+                        "value": 4.67,
+                        "id": 543333718
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.03,
+                        "id": 543333720
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.04,
+                        "id": 543333716
+                    },
+                    {
+                        "name": "2",
+                        "value": 12.79,
+                        "id": 543333715
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.45,
+                        "id": 543358109
+                    },
+                    {
+                        "name": "under",
+                        "value": 2.7,
+                        "id": 543358604
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700978,
+            "sd": "2017-04-29T17:30:00.000+0400",
+            "h": "FSV Mainz 05",
+            "a": "Monchengladbach",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.65,
+                        "id": 551009818
+                    },
+                    {
+                        "name": "no",
+                        "value": 2.2,
+                        "id": 551010402
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 551003184
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.45,
+                        "id": 551003183
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.53,
+                        "id": 551003189
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.8,
+                        "id": 551003187
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.97,
+                        "id": 551003186
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 2,
+                        "id": 550976101
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.8,
+                        "id": 550976102
+                    }
+                ]
+            }
+        },
+        {
+            "id": 4700980,
+            "sd": "2017-04-29T17:30:00.000+0400",
+            "h": "Borussia Dortmund",
+            "a": "1 FC Cologne",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.85,
+                        "id": 550983557
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.9,
+                        "id": 550984178
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.15,
+                        "id": 550983747
+                    },
+                    {
+                        "name": "x2",
+                        "value": 3.65,
+                        "id": 550983620
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.06,
+                        "id": 550984027
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.07,
+                        "id": 550983783
+                    },
+                    {
+                        "name": "2",
+                        "value": 8.26,
+                        "id": 550983909
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.5,
+                        "id": 550976105
+                    },
+                    {
+                        "name": "under",
+                        "value": 2.55,
+                        "id": 550976106
+                    }
+                ]
+            }
+        }
+    ]
+}

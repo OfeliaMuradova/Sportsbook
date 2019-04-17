@@ -1,0 +1,99 @@
+{
+   "data":[
+      {
+         "index":"bothToScore",
+         "name":"Both To Score",
+         "priority":10,
+         "odds":[
+            {
+               "id":"yes",
+               "priority":1,
+               "name":"Yes"
+            },
+            {
+               "id":"no",
+               "priority":2,
+               "name":"No"
+            }
+         ]
+      },
+      {
+         "index":"doubeChance",
+         "name":"Double Chance",
+         "priority":2,
+         "odds":[
+            {
+               "id":"1x",
+               "priority":1,
+               "name":"1X"
+            },
+            {
+               "id":"x2",
+               "priority":3,
+               "name":"X2"
+            },
+            {
+               "id":"12",
+               "priority":2,
+               "name":"12"
+            }
+         ]
+      },
+      {
+         "index":"drawNoBet",
+         "name":"Draw No Bet",
+         "priority":5,
+         "odds":[
+            {
+               "id":"1",
+               "priority":1,
+               "name":"(0) 1"
+            },
+            {
+               "id":"2",
+               "priority":2,
+               "name":"(0) 2"
+            }
+         ]
+      },
+      {
+         "index":"3way",
+         "name":"3 Way",
+         "priority":1,
+         "odds":[
+            {
+               "id":"1",
+               "priority":1,
+               "name":"1"
+            },
+            {
+               "id":"2",
+               "priority":3,
+               "name":"2"
+            },
+            {
+               "id":"x",
+               "priority":2,
+               "name":"X"
+            }
+         ]
+      },
+      {
+         "index":"totalGoals",
+         "name":"Total Goals",
+         "priority":8,
+         "odds":[
+            {
+               "id":"over",
+               "priority":1,
+               "name":"Over"
+            },
+            {
+               "id":"under",
+               "priority":2,
+               "name":"Under"
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,676 @@
+asdf: 2 Console was cleared
+asdf: 49 {
+    "data": [
+        {
+            "id": 8284703,
+            "sd": "2017-04-22T20:00:00.000+0400",
+            "h": "Rayo Vallecano",
+            "a": "CD Lugo",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.95,
+                        "id": 553236497
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 553237922
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.29,
+                        "id": 553236179
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.17,
+                        "id": 553235440
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.93,
+                        "id": 553237987
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.26,
+                        "id": 553238225
+                    },
+                    {
+                        "name": "2",
+                        "value": 3.22,
+                        "id": 553237829
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.65,
+                        "id": 553233326
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.05,
+                        "id": 553233327
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284708,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Real Valladolid",
+            "a": "Elche CF",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 553235994
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.95,
+                        "id": 553237630
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.3,
+                        "id": 553236604
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.85,
+                        "id": 553236956
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.21,
+                        "id": 553237214
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.33,
+                        "id": 553238600
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.91,
+                        "id": 553237967
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.65,
+                        "id": 553233320
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.1,
+                        "id": 553233321
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284712,
+            "sd": "2017-04-23T20:00:00.000+0400",
+            "h": "UD Almeria",
+            "a": "Sevilla Atletico",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.95,
+                        "id": 553239799
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 553239942
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.3,
+                        "id": 553240047
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.21,
+                        "id": 553240035
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.78,
+                        "id": 553240122
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.35,
+                        "id": 553239866
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.73,
+                        "id": 553240062
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.6,
+                        "id": 553234493
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.15,
+                        "id": 553234494
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284715,
+            "sd": "2017-04-23T14:00:00.000+0400",
+            "h": "Numancia CD",
+            "a": "Tenerife CD",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.7,
+                        "id": 553235015
+                    },
+                    {
+                        "name": "yes",
+                        "value": 2.05,
+                        "id": 553235915
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.37,
+                        "id": 553235123
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.46,
+                        "id": 553234921
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.38,
+                        "id": 553234939
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.71,
+                        "id": 553235298
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.91,
+                        "id": 553236017
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.45,
+                        "id": 553234170
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.5,
+                        "id": 553234171
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284716,
+            "sd": "2017-04-23T18:00:00.000+0400",
+            "h": "RCD Mallorca",
+            "a": "Cordoba CF",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.65,
+                        "id": 553235988
+                    },
+                    {
+                        "name": "yes",
+                        "value": 2.05,
+                        "id": 553236838
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.29,
+                        "id": 553238507
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.82,
+                        "id": 553236413
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.2,
+                        "id": 553238373
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.32,
+                        "id": 553236201
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.85,
+                        "id": 553236923
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.3,
+                        "id": 553233771
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.55,
+                        "id": 553233772
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284718,
+            "sd": "2017-04-22T20:00:00.000+0400",
+            "h": "Cadiz CF",
+            "a": "Levante UD",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 553242163
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.95,
+                        "id": 553242296
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.35,
+                        "id": 553242262
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.37,
+                        "id": 553241838
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.47,
+                        "id": 553241990
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.69,
+                        "id": 553242426
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.93,
+                        "id": 553242690
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.3,
+                        "id": 553241140
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.55,
+                        "id": 553241141
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284719,
+            "sd": "2017-04-23T20:00:00.000+0400",
+            "h": "CF Reus Deportiu",
+            "a": "Alcorcon AD",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 2.55,
+                        "id": 553243074
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.45,
+                        "id": 553243254
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.39,
+                        "id": 553243170
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.62,
+                        "id": 553242971
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.24,
+                        "id": 553243102
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.42,
+                        "id": 553243314
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.46,
+                        "id": 553242995
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.3,
+                        "id": 553241142
+                    },
+                    {
+                        "name": "over",
+                        "value": 3.15,
+                        "id": 553241143
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284720,
+            "sd": "2017-04-21T22:00:00.000+0400",
+            "h": "Real Oviedo",
+            "a": "SD Huesca",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 553237237
+                    },
+                    {
+                        "name": "yes",
+                        "value": 2,
+                        "id": 553238910
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.35,
+                        "id": 553238673
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.3,
+                        "id": 553238150
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.57,
+                        "id": 553238341
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.53,
+                        "id": 553236931
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.19,
+                        "id": 553237727
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.3,
+                        "id": 553233322
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.55,
+                        "id": 553233323
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284721,
+            "sd": "2017-04-23T18:00:00.000+0400",
+            "h": "CD Mirandes",
+            "a": "Real Zaragoza",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.8,
+                        "id": 553234941
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.9,
+                        "id": 553236144
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 553234892
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.36,
+                        "id": 553234855
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.53,
+                        "id": 553236718
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.04,
+                        "id": 553236453
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.63,
+                        "id": 553235794
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.05,
+                        "id": 553234174
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.7,
+                        "id": 553234175
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284722,
+            "sd": "2017-04-22T22:30:00.000+0400",
+            "h": "Girona FC",
+            "a": "Ucam Murcia",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 2.45,
+                        "id": 553237246
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.5,
+                        "id": 553238653
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.23,
+                        "id": 553239121
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.07,
+                        "id": 553237618
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.48,
+                        "id": 553238969
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.11,
+                        "id": 553239098
+                    },
+                    {
+                        "name": "2",
+                        "value": 5.18,
+                        "id": 553239125
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.25,
+                        "id": 553233300
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.55,
+                        "id": 553233301
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8284723,
+            "sd": "2017-04-22T20:00:00.000+0400",
+            "h": "Getafe CF",
+            "a": "Gimnastic de Tarragona",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.6,
+                        "id": 553236468
+                    },
+                    {
+                        "name": "yes",
+                        "value": 2.25,
+                        "id": 553237476
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.28,
+                        "id": 553237319
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.06,
+                        "id": 553236216
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.13,
+                        "id": 553237049
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.2,
+                        "id": 553235241
+                    },
+                    {
+                        "name": "2",
+                        "value": 3.7,
+                        "id": 553237405
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.35,
+                        "id": 553233324
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.55,
+                        "id": 553233325
+                    }
+                ]
+            }
+        }
+    ]
+}

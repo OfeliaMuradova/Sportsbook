@@ -1,0 +1,126 @@
+{
+    "data": [
+        {
+            "id": 8308987,
+            "sd": "2017-04-25T22:45:00.000+0400",
+            "h": "Monchengladbach",
+            "a": "Eintracht Frankfurt",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.85,
+                        "id": 529749245
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.85,
+                        "id": 529749409
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 529749678
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.86,
+                        "id": 529749805
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.27,
+                        "id": 529749921
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.42,
+                        "id": 529749116
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.85,
+                        "id": 529749247
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.05,
+                        "id": 529749455
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.75,
+                        "id": 529749782
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8308989,
+            "sd": "2017-04-26T22:45:00.000+0400",
+            "h": "Bayern Munich",
+            "a": "Borussia Dortmund",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.7,
+                        "id": 529748993
+                    },
+                    {
+                        "name": "no",
+                        "value": 2.05,
+                        "id": 529749735
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.23,
+                        "id": 529749196
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.16,
+                        "id": 529749083
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.42,
+                        "id": 529749210
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.23,
+                        "id": 529749951
+                    },
+                    {
+                        "name": "2",
+                        "value": 4.23,
+                        "id": 529749479
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.6,
+                        "id": 529749390
+                    },
+                    {
+                        "name": "under",
+                        "value": 2.25,
+                        "id": 529749408
+                    }
+                ]
+            }
+        }
+    ]
+}

@@ -1,0 +1,737 @@
+asdf: 2 Console was cleared
+asdf: 49 {
+    "data": [
+        {
+            "id": 7412349,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Gillingham FC",
+            "a": "Fleetwood Town",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.9,
+                        "id": 553132417
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.8,
+                        "id": 553132478
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.27,
+                        "id": 553126245
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.67,
+                        "id": 553126243
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.26,
+                        "id": 553126244
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.36,
+                        "id": 553126247
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.42,
+                        "id": 553126248
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.75,
+                        "id": 553132714
+                    },
+                    {
+                        "name": "over",
+                        "value": 2,
+                        "id": 553132733
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412350,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Oldham Athletic",
+            "a": "Rochdale FC",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.8,
+                        "id": 553135664
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.9,
+                        "id": 553135668
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.29,
+                        "id": 553126183
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.31,
+                        "id": 553126182
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.59,
+                        "id": 553126186
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.18,
+                        "id": 553126185
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.52,
+                        "id": 553126187
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.7,
+                        "id": 553135700
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.05,
+                        "id": 553135716
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412354,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Peterborough Utd",
+            "a": "Bristol Rovers",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 2.55,
+                        "id": 553133588
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.45,
+                        "id": 553133897
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.26,
+                        "id": 553126307
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.54,
+                        "id": 553126306
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.38,
+                        "id": 553126308
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.98,
+                        "id": 553126309
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.63,
+                        "id": 553126313
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 2.35,
+                        "id": 553133227
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.55,
+                        "id": 553134216
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412356,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Milton Keynes Dons",
+            "a": "Sheffield United",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.75,
+                        "id": 553133107
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.95,
+                        "id": 553133192
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.27,
+                        "id": 553125890
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.23,
+                        "id": 553125893
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.75,
+                        "id": 553125894
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.59,
+                        "id": 553125895
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.36,
+                        "id": 553125896
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.9,
+                        "id": 553133098
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.8,
+                        "id": 553133135
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412362,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Millwall FC",
+            "a": "Oxford Utd",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.85,
+                        "id": 553130895
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.85,
+                        "id": 553131170
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.22,
+                        "id": 553125902
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.18,
+                        "id": 553125899
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.12,
+                        "id": 553125901
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.17,
+                        "id": 553125904
+                    },
+                    {
+                        "name": "2",
+                        "value": 3.85,
+                        "id": 553125898
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.8,
+                        "id": 553131502
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.9,
+                        "id": 553131635
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412364,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Chesterfield FC",
+            "a": "Charlton Athletic",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.75,
+                        "id": 553129851
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.95,
+                        "id": 553130014
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.26,
+                        "id": 553126258
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.86,
+                        "id": 553126252
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.21,
+                        "id": 553126253
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.85,
+                        "id": 553126260
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.32,
+                        "id": 553126262
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.85,
+                        "id": 553130498
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.85,
+                        "id": 553130643
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412371,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Bradford City",
+            "a": "AFC Wimbledon",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.7,
+                        "id": 553127978
+                    },
+                    {
+                        "name": "yes",
+                        "value": 2.05,
+                        "id": 553128203
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.2,
+                        "id": 553114955
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.34,
+                        "id": 553114941
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.07,
+                        "id": 553114953
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.11,
+                        "id": 553114943
+                    },
+                    {
+                        "name": "2",
+                        "value": 4.44,
+                        "id": 553114956
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.75,
+                        "id": 553127848
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.95,
+                        "id": 553128104
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412373,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Shrewsbury Town",
+            "a": "Southend Utd",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.8,
+                        "id": 553135343
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.9,
+                        "id": 553135425
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.28,
+                        "id": 553125911
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.65,
+                        "id": 553125913
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.28,
+                        "id": 553125918
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.3,
+                        "id": 553125914
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.46,
+                        "id": 553125917
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.75,
+                        "id": 553135121
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.95,
+                        "id": 553135401
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412377,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Swindon Town",
+            "a": "Scunthorpe Utd",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 2,
+                        "id": 553133607
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.7,
+                        "id": 553133825
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.29,
+                        "id": 553126116
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.39,
+                        "id": 553126112
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.48,
+                        "id": 553126118
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.9,
+                        "id": 553126109
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.69,
+                        "id": 553126110
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.8,
+                        "id": 553133064
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.9,
+                        "id": 553133915
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412379,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Bury FC",
+            "a": "Northampton Town",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 2.05,
+                        "id": 553129379
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.7,
+                        "id": 553129469
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.24,
+                        "id": 553125926
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.89,
+                        "id": 553125920
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.2,
+                        "id": 553125924
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.3,
+                        "id": 553125919
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.88,
+                        "id": 553125923
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.95,
+                        "id": 553129453
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.75,
+                        "id": 553129951
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412382,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Port Vale FC",
+            "a": "Bolton Wanderers",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.9,
+                        "id": 553137902
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.8,
+                        "id": 553137978
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.26,
+                        "id": 553126191
+                    },
+                    {
+                        "name": "1x",
+                        "value": 2,
+                        "id": 553126192
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.17,
+                        "id": 553126195
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 3.3,
+                        "id": 553126193
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.25,
+                        "id": 553126188
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 1.95,
+                        "id": 553137759
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.75,
+                        "id": 553138115
+                    }
+                ]
+            }
+        },
+        {
+            "id": 7412384,
+            "sd": "2017-04-22T18:00:00.000+0400",
+            "h": "Coventry City",
+            "a": "Walsall FC",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.8,
+                        "id": 553131406
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.9,
+                        "id": 553131794
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.32,
+                        "id": 553125929
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.41,
+                        "id": 553125930
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.44,
+                        "id": 553125934
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.82,
+                        "id": 553125928
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.76,
+                        "id": 553125936
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.6,
+                        "id": 553130977
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.2,
+                        "id": 553131679
+                    }
+                ]
+            }
+        }
+    ]
+}

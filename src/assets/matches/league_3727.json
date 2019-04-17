@@ -1,0 +1,614 @@
+{
+    "data": [
+        {
+            "id": 8261723,
+            "sd": "2017-04-24T22:30:00.000+0400",
+            "h": "Padova Calcio",
+            "a": "AC Ancona",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 2.1,
+                        "id": 554218977
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.65,
+                        "id": 554218981
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.21,
+                        "id": 554218884
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.07,
+                        "id": 554218659
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.41,
+                        "id": 554218868
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.11,
+                        "id": 554218822
+                    },
+                    {
+                        "name": "2",
+                        "value": 4.81,
+                        "id": 554218683
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.75,
+                        "id": 554218895
+                    },
+                    {
+                        "name": "over",
+                        "value": 1.95,
+                        "id": 554219153
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8282823,
+            "sd": "2017-04-23T16:30:00.000+0400",
+            "h": "Sambenedettese",
+            "a": "Santarcangelo Calcio",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.95,
+                        "id": 554095007
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 554095140
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.27,
+                        "id": 554094501
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.22,
+                        "id": 554094503
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.74,
+                        "id": 554094505
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.35,
+                        "id": 554094506
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.57,
+                        "id": 554094504
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.6,
+                        "id": 554094989
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.15,
+                        "id": 554097030
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8283849,
+            "sd": "2017-04-23T18:30:00.000+0400",
+            "h": "AC Feralpi Salo",
+            "a": "AC Reggiana",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 554108686
+                    },
+                    {
+                        "name": "yes",
+                        "value": 2,
+                        "id": 554108743
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 554106010
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.39,
+                        "id": 554106000
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.43,
+                        "id": 554106007
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.73,
+                        "id": 554106006
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.83,
+                        "id": 554106009
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.35,
+                        "id": 554106002
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.55,
+                        "id": 554106003
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8283852,
+            "sd": "2017-04-23T18:30:00.000+0400",
+            "h": "Maceratese",
+            "a": "Teramo Calcio",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.95,
+                        "id": 554107183
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 554108416
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.29,
+                        "id": 554106063
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.64,
+                        "id": 554106054
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.26,
+                        "id": 554106055
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.44,
+                        "id": 554106064
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.33,
+                        "id": 554106057
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.2,
+                        "id": 554106062
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.6,
+                        "id": 554106092
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8283854,
+            "sd": "2017-04-23T18:30:00.000+0400",
+            "h": "AS Gubbio",
+            "a": "SSC Venezia",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.9,
+                        "id": 554107375
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.8,
+                        "id": 554108580
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 554106167
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.41,
+                        "id": 554106161
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.43,
+                        "id": 554106169
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.78,
+                        "id": 554106157
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.81,
+                        "id": 554106163
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.1,
+                        "id": 554106159
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.65,
+                        "id": 554106165
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8285698,
+            "sd": "2017-04-23T22:30:00.000+0400",
+            "h": "AC Mantova",
+            "a": "AC Lumezzane",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.95,
+                        "id": 554166475
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 554166782
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 554166291
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.64,
+                        "id": 554166303
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.26,
+                        "id": 554166617
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.44,
+                        "id": 554166354
+                    },
+                    {
+                        "name": "2",
+                        "value": 2.38,
+                        "id": 554166455
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.2,
+                        "id": 554166549
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.6,
+                        "id": 554166571
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8285702,
+            "sd": "2017-04-23T22:30:00.000+0400",
+            "h": "Forli",
+            "a": "Bassano Virtus",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.9,
+                        "id": 554164950
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.8,
+                        "id": 554165358
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.32,
+                        "id": 554165261
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.49,
+                        "id": 554164894
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.34,
+                        "id": 554165082
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.61,
+                        "id": 554164987
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.98,
+                        "id": 554164920
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.6,
+                        "id": 554165152
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.2,
+                        "id": 554165174
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8285703,
+            "sd": "2017-04-23T22:30:00.000+0400",
+            "h": "ALMA JUVENTUS FANO",
+            "a": "FC Modena",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "no",
+                        "value": 1.75,
+                        "id": 554165566
+                    },
+                    {
+                        "name": "yes",
+                        "value": 1.95,
+                        "id": 554165846
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.33,
+                        "id": 554165513
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.33,
+                        "id": 554165635
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.47,
+                        "id": 554165905
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.61,
+                        "id": 554165996
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.95,
+                        "id": 554165849
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.55,
+                        "id": 554165839
+                    },
+                    {
+                        "name": "over",
+                        "value": 2.3,
+                        "id": 554165974
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8297635,
+            "sd": "2017-04-24T22:30:00.000+0400",
+            "h": "UC Albinoleffe",
+            "a": "Pordenone",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 1.85,
+                        "id": 554220002
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.85,
+                        "id": 554220476
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.32,
+                        "id": 554220410
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.52,
+                        "id": 554220215
+                    },
+                    {
+                        "name": "x2",
+                        "value": 1.32,
+                        "id": 554220244
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 2.05,
+                        "id": 554220255
+                    },
+                    {
+                        "name": "2",
+                        "value": 1.57,
+                        "id": 554220484
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "over",
+                        "value": 2.15,
+                        "id": 554219954
+                    },
+                    {
+                        "name": "under",
+                        "value": 1.6,
+                        "id": 554220162
+                    }
+                ]
+            }
+        },
+        {
+            "id": 8297665,
+            "sd": "2017-04-24T22:45:00.000+0400",
+            "h": "Parma FC",
+            "a": "FC Sudtirol",
+            "odds": {
+                "bothToScore": [
+                    {
+                        "name": "yes",
+                        "value": 2.05,
+                        "id": 554220313
+                    },
+                    {
+                        "name": "no",
+                        "value": 1.7,
+                        "id": 554220346
+                    }
+                ],
+                "doubleChance": [
+                    {
+                        "name": "12",
+                        "value": 1.2,
+                        "id": 554219834
+                    },
+                    {
+                        "name": "1x",
+                        "value": 1.1,
+                        "id": 554220001
+                    },
+                    {
+                        "name": "x2",
+                        "value": 2.26,
+                        "id": 554220558
+                    }
+                ],
+                "drawNoBet": [
+                    {
+                        "name": "1",
+                        "value": 1.14,
+                        "id": 554220629
+                    },
+                    {
+                        "name": "2",
+                        "value": 4.07,
+                        "id": 554220553
+                    }
+                ],
+                "totalGoals": [
+                    {
+                        "name": "under",
+                        "value": 1.75,
+                        "id": 554220289
+                    },
+                    {
+                        "name": "over",
+                        "value": 2,
+                        "id": 554220729
+                    }
+                ]
+            }
+        }
+    ]
+}
