@@ -1,5 +1,5 @@
 <div class="wrapper">
   <nav class="header"></nav>
-  <app-tree [sports] = "sports"></app-tree>
-  <app-grid [sports] = "sports"></app-grid>
+  <app-tree [sports] = "sports" (onLeagueClicked) = "getCurrentLeagueMatches($event)"></app-tree>
+  <app-grid [currentMatches] = "currentMatches" [odds] = "odds"></app-grid>
 </div>

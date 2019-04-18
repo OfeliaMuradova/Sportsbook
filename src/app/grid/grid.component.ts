@@ -1,6 +1,6 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { League, Sport } from '../types';
-import { ActivatedRoute, ParamMap } from '@angular/router';
+import { Odd, Match } from '../types';
+import format from 'date-fns/format'
 
 @Component({
   selector: 'app-grid',
@@ -8,33 +8,29 @@ import { ActivatedRoute, ParamMap } from '@angular/router';
   styleUrls: ['./grid.component.scss']
 })
 export class GridComponent implements OnInit {
-  @Input() sports: Sport[] = [];
-  private leagues: League[] = [];
-  private currentLeagueId: number;
+  //todo: initially has some default value sent from the server
+  //@Input() currentLeagueId: number;
+  @Input() odds: Odd[];
+  @Input() currentMatches: Match[];
 
-  constructor(private route: ActivatedRoute) {}
+  constructor() { }
 
   ngOnInit() {
-    this.currentLeagueId = this.route.snapshot.params['id'];
-    
-    //todo: GET ID
-    this.route.paramMap.subscribe(
-      (params: ParamMap) => {
-        this.currentLeagueId = +params.get('id');
-        console.log(this.currentLeagueId);
-      }
-    )
-    
+    //console.log(this.currentLeagueId);
   }
-  
-  private getAllLeagues(){
-    this.sports.forEach((sport) => {
-      sport.countries.forEach((country) => {
-        country.leagues.forEach((league) => {
-          this.leagues.push(league);
-        })
-      });
-    });
+
+  formatDate(date: string): string {
+    return format(date, 'MM-DD HH:mm');
   }
+
+  // private getAllLeagues(){
+  //   this.sports.forEach((sport) => {
+  //     sport.countries.forEach((country) => {
+  //       country.leagues.forEach((league) => {
+  //         this.leagues.push(league);
+  //       })
+  //     });
+  //   });
+  // }
 
 }

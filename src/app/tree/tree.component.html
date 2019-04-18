@@ -17,8 +17,8 @@
                         <span class="countryTotal">{{country.total}}</span>
                       </a>
                       <ul class="collapse list-unstyled" [attr.id] = "'country' + country.id">
-                          <li *ngFor="let league of country.leagues.sort(byAlphabetAsc)" class="league">
-                            <a  [routerLink]="['/league', league.id]" data-toggle="collapse" aria-expanded="false"> 
+                          <li *ngFor="let league of country.leagues.sort(byAlphabetAsc)" routerLinkActive="active" class="league">
+                            <a [routerLink] = "['/league', sport.name, country.name ,league.name]" (click) = "emitLeagueData(league.id)" data-toggle="collapse" aria-expanded="false"> 
                               <span class="leagueName">{{league.name}}</span>
                               <span class="leagueTotal">{{league.total}}</span>
                             </a>
