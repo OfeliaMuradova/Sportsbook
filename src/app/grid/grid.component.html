@@ -8,10 +8,10 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>1</td>
-                <td>1</td>
-                <td>Mark</td>
+              <tr *ngFor = "let match of currentMatches">
+                <td>{{ formatDate(match.sd) }}</td>
+                <td>{{ match.h }} : {{ match.a }}</td>
+                <td></td>
               </tr>
             </tbody>
           </table>

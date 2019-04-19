@@ -9,15 +9,12 @@ import format from 'date-fns/format'
 })
 export class GridComponent implements OnInit {
   //todo: initially has some default value sent from the server
-  //@Input() currentLeagueId: number;
   @Input() odds: Odd[];
   @Input() currentMatches: Match[];
 
   constructor() { }
 
-  ngOnInit() {
-    //console.log(this.currentLeagueId);
-  }
+  ngOnInit() { }
 
   formatDate(date: string): string {
     return format(date, 'MM-DD HH:mm');
