@@ -8,9 +8,11 @@ import format from 'date-fns/format'
   styleUrls: ['./grid.component.scss']
 })
 export class GridComponent implements OnInit {
-  //todo: initially has some default value sent from the server
   @Input() odds: Odd[];
+  //ideally this initially should have some default value sent from the server
   @Input() currentMatches: Match[];
+  @Input() hasMatches: boolean;
+  @Input() resultSet: [];
 
   constructor() { }
 
@@ -20,14 +22,7 @@ export class GridComponent implements OnInit {
     return format(date, 'MM-DD HH:mm');
   }
 
-  // private getAllLeagues(){
-  //   this.sports.forEach((sport) => {
-  //     sport.countries.forEach((country) => {
-  //       country.leagues.forEach((league) => {
-  //         this.leagues.push(league);
-  //       })
-  //     });
-  //   });
-  // }
-
+  ngAfterViewInit(){
+    console.log("view");
+  }
 }

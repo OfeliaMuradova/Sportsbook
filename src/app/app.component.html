@@ -1,5 +1,9 @@
 <div class="wrapper">
-  <nav class="header"></nav>
-  <app-tree [sports] = "sports" (onLeagueClicked) = "getCurrentLeagueMatches($event)"></app-tree>
-  <app-grid [currentMatches] = "currentMatches" [odds] = "odds"></app-grid>
+  <div><nav class="header"></nav></div>
+  <!-- <div id="treeContainer"> -->
+    <app-tree [sports] = "sports" (onLeagueClicked) = "getCurrentLeagueMatches($event)"></app-tree>
+  <!-- </div> -->
+  <!-- <div id="gridContainer"> -->
+    <app-grid [currentMatches] = "currentMatches" [odds] = "odds" [hasMatches] = "hasMatches" [resultSet] = "resultSet" ></app-grid>
+  <!-- </div> -->
 </div>

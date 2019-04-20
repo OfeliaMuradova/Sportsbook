@@ -1,18 +1,25 @@
 <div class="grid-wrapper">
-        <table class="table table-hover table-striped table-dark">
-            <thead>
-              <tr>
-                <th >Date</th>
-                <th>Pair</th>
-                <th [title] = "odd.type" *ngFor="let odd of odds">{{ odd.name }} </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr *ngFor = "let match of currentMatches">
-                <td>{{ formatDate(match.sd) }}</td>
-                <td>{{ match.h }} : {{ match.a }}</td>
-                <td></td>
-              </tr>
-            </tbody>
-          </table>
+  <table class="table table-hover table-striped table-dark">
+      <thead>
+        <tr>
+          <th >Date</th>
+          <th>Pair</th>
+          <th [title] = "odd.type" *ngFor="let odd of odds">{{ odd.name }} </th>
+        </tr>
+      </thead>
+      <tbody *ngIf = "currentMatches.length">
+        <tr *ngFor = "let match of currentMatches; let i = index">
+          <td>{{ formatDate(match.sd) }}</td>
+          <td>{{ match.h }} : {{ match.a }}</td>
+          <td *ngFor = "let result of resultSet; let r = index;">
+            {{ resultSet[i][r] || "-"}}
+          </td>
+        </tr>
+      </tbody>
+      <tbody *ngIf = "!hasMatches || !currentMatches.length">
+        <tr>
+          <td colspan = "14" class="text-center">No matches found!</td>
+        </tr>
+      </tbody>
+    </table>
 </div>

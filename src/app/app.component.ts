@@ -9,11 +9,12 @@ import { Sport, Match, OddType, Odd } from './types';
   providers: [DataService]
 })
 export class AppComponent {
+  private resultSet = [];
   sports: Sport[] = [];
   odds: Odd[] = [];
   oddTypes: OddType[] = [];
-  private oddNames: string[] = []; 
   currentMatches: Match[] = [];
+  hasMatches: boolean = false;
 
   constructor(private dataService: DataService){}
 
@@ -26,25 +27,15 @@ export class AppComponent {
     this.dataService.getOddTypes()
       .subscribe((response => {
         this.oddTypes = response['data'].sort(this.byPriorityAsc);
-        console.log(this.oddTypes);
         this.oddTypes.forEach(oddType => {
           oddType.odds.sort(this.byPriorityAsc);
           oddType.odds.forEach(odd => {
-            odd.type = oddType.name;
+            odd.type = oddType.index;
             this.odds.push(odd);
           });
         });
-
-        this.odds.forEach(o => {
-          this.oddNames.push(o.id);
-        });
-    
-        console.log("names")
-        console.log(this.oddNames);
     }));  
     
-    
-
   }
 
   byPriorityAsc(a, b) {
@@ -63,53 +54,52 @@ export class AppComponent {
     this.dataService.getLeagueMatches(id)
     .subscribe(response => {
       this.currentMatches = response['data'];
-      
+      this.hasMatches = true;
       console.log(this.currentMatches);
 
       this.getCurrentLeagueOdds();
 
+    },
+    (error) => {
+      // console.log(error);
+      this.currentMatches = [];
+      this.hasMatches = false;
     });
     
   }
 
   getCurrentLeagueOdds(){
-    let newarr = [];
-    // console.log("odds");
-    // console.log(this.odds);
-    this.currentMatches.forEach((match, index) => {
-      newarr.push(new Array<any>());
+    this.resultSet = [];
+
+    this.currentMatches.forEach((match, matchIndex) => {
+      this.resultSet.push(new Array<any>());
       for(let matchOddType in match.odds){
-        var odds = match.odds[matchOddType];
-        for(let o in odds){
-          newarr[index].push(odds[o]);
-        }
-        // this.oddTypes.forEach(oddType => {  //foreach bets
-        //   oddType.odds.forEach(odd => {
-        //     console.log(odd);
-        //     this.matchOdds.push(odd)
-        //   });
-        // });
-
-      }
-      
-
-
-    });
-
-    console.log(newarr);
-
-    // this.odds.forEach(o => {
-    //   //this.oddNames.push(o.id);
-    //   if(o.id === ){}
-    // });
-    this.odds.forEach(o => {
-      newarr.forEach(m => {
-        m.forEach(element => {
-          if(o.id === element.name){
-            debugger;
+        let matchOdds = match.odds[matchOddType];
+        this.odds.forEach((oddName, index) => {
+          if(matchOddType === oddName.type){
+            for(let matchOddndex in matchOdds){
+              let matchOdd = matchOdds[matchOddndex];
+                if(matchOdd.name === oddName.id)
+                  this.resultSet[matchIndex][index] = matchOdd.value;
+            }
           }
         });
-      });
+
+      }
     });
+
+    this.resultSet.forEach((result, j)=> {
+      result[j].push(); //push matches and info
+    });
+
+    console.log(this.resultSet);
+
+    // this.currentMatches.forEach((match, i) => {
+    //   this.resultSet.forEach((result, j)=> {
+    //     console.log(this.resultSet[i][j]);
+    //   });
+    // });
+    
+
   }
 }

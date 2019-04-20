@@ -1,4 +1,40 @@
 .grid-wrapper{
-    margin: 2% 5%;
-    margin-left: calc(300px + 5%);
+    margin: 2% 1%;
+    margin-left: calc(20vw + 1%);
+}
+
+table{
+    background-color: #2a2a2a;
+    font-weight: 400;
+    border-color: #171717;
+    color: #b5b4b4;
+
+    td, th{
+        padding: .45rem;
+        border-color: #171717;
+    }
+
+    tr{
+        border-color: #171717;
+        
+        :hover{
+            cursor: pointer;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .grid-wrapper{
+        margin: 0 auto;
+    }
+    
+    :host{
+        color: red;
+        display: block;
+        // margin-top: 300px; 
+        float: left;
+        position: absolute;
+    }
+
+
 }
