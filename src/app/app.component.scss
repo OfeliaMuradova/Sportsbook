@@ -3,6 +3,10 @@
     background-color: #272727!important;
 }
 
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
 @media (max-width: 768px) {
     .wrapper{
         position: relative;
@@ -14,24 +18,7 @@
         position: absolute;
     }
 
-    #treeContainer, #gridContainer{
-        width: 100%;
-        height: 100%;
-        // position: absolute;
-        color: red;
-        // float: left;
-        clear: both;
-        display: block;
-    }
-
-    #gridContainer{
-        clear: left;
-    }
-
     :host{
         position: relative;
-        background: red;
     }
-
-
 }

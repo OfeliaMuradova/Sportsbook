@@ -1,5 +1,5 @@
 .grid-wrapper{
-    margin: 2% 1%;
+    margin: 1%;
     margin-left: calc(20vw + 1%);
 }
 
@@ -9,32 +9,52 @@ table{
     border-color: #171717;
     color: #b5b4b4;
 
+    tbody:hover{
+        cursor: pointer;
+    }
+
     td, th{
-        padding: .45rem;
+        padding: .25rem;
         border-color: #171717;
     }
 
     tr{
         border-color: #171717;
-        
-        :hover{
-            cursor: pointer;
-        }
     }
 }
 
+/* ---------------------------------------------------
+    MEDIAQUERIES
+----------------------------------------------------- */
+
+@media (max-width: 1122px) {
+    td{
+        padding: 0.3rem 0.13rem!important;
+    }
+}
+
+@media (max-width: 992px) { 
+    td{
+        padding: 0.2rem 0.23rem!important;
+    }
+
+    th{
+        padding: 0.2rem 0.1rem !important;
+        font-size: 15px;
+    }
+ }
+
 @media (max-width: 768px) {
     .grid-wrapper{
-        margin: 0 auto;
-    }
-    
-    :host{
-        color: red;
-        display: block;
-        // margin-top: 300px; 
-        float: left;
-        position: absolute;
+        margin: 1%;
     }
 
+    td{
+        padding: 0.15rem!important;
+        font-size: 15px;
+    }
 
+    th{
+        padding: 0.4rem!important;
+    }   
 }

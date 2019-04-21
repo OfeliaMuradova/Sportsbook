@@ -1,33 +1,30 @@
-<!-- <div class="wrapper"> -->
-    <nav id="sidebar">
-        <div class="sidebar-header">
-            <h3>Sportsbook</h3>
-        </div>
+<nav id="sidebar">
+    <div class="sidebar-header">
+        <h3>Sportsbook</h3>
+    </div>
 
-        <ul class="list-unstyled components">
-            <li *ngFor="let sport of sports">
-                <a [attr.href] = "'#sport' + sport.id" data-toggle="collapse" aria-expanded="false" class="sport">
-                  <span class="sportName">{{sport.name}}</span>
-                  <span class="sportTotal">{{sport.total}}</span>
-                </a>
-                <ul class="collapse list-unstyled" [attr.id] = "'sport' + sport.id">
-                    <li *ngFor="let country of sport.countries.sort(byAlphabetAsc)">
-                      <a [attr.href] = "'#country' + country.id" data-toggle="collapse" aria-expanded="false" class="country">
-                        <span class="countryName">{{country.name}}</span>
-                        <span class="countryTotal">{{country.total}}</span>
-                      </a>
-                      <ul class="collapse list-unstyled" [attr.id] = "'country' + country.id">
-                          <li *ngFor="let league of country.leagues.sort(byAlphabetAsc)" routerLinkActive="active" class="league">
-                            <a [routerLink] = "['/league', sport.name, country.name ,league.name]" (click) = "emitLeagueData(league.id)" data-toggle="collapse" aria-expanded="false"> 
-                              <span class="leagueName">{{league.name}}</span>
-                              <span class="leagueTotal">{{league.total}}</span>
-                            </a>
-                          </li>
-                      </ul>
-                    </li>
-                </ul>
-            </li>
-        </ul>
-
-    </nav>
-<!-- </div> -->
+    <ul class="list-unstyled components">
+        <li *ngFor="let sport of sports">
+            <a [attr.href] = "'#sport' + sport.id" data-toggle="collapse" aria-expanded="false" class="sport">
+              <span class="sportName">{{sport.name}}</span>
+              <span class="sportTotal">{{sport.total}}</span>
+            </a>
+            <ul class="collapse list-unstyled" [attr.id] = "'sport' + sport.id">
+                <li *ngFor="let country of sport.countries.sort(byAlphabetAsc)"  class="country">
+                  <a [attr.href] = "'#country' + country.id" data-toggle="collapse" aria-expanded="false">
+                    <span class="countryName">{{country.name}}</span>
+                    <span class="countryTotal">{{country.total}}</span>
+                  </a>
+                  <ul class="collapse list-unstyled" [attr.id] = "'country' + country.id">
+                      <li *ngFor="let league of country.leagues.sort(byAlphabetAsc)" routerLinkActive="active" class="league">
+                        <a (click) = "emitLeagueData(league.id)" data-toggle="collapse" aria-expanded="false"> 
+                          <span class="leagueName">{{league.name}}</span>
+                          <span class="leagueTotal">{{league.total}}</span>
+                        </a>
+                      </li>
+                  </ul>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</nav>

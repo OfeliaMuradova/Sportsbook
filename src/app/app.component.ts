@@ -1,4 +1,4 @@
-import { Component, Input } from '@angular/core';
+import { Component } from '@angular/core';
 import { DataService } from './data.service';
 import { Sport, Match, OddType, Odd } from './types';
 
@@ -23,83 +23,79 @@ export class AppComponent {
     this.getOddTypes();
   }
 
-  getOddTypes() {
+  private getTreeData(){
+    this.dataService.getTreeData()
+    .subscribe(response => {
+        this.sports = response['data'].sort((a, b) =>  b - a);
+    },
+    (error) => {
+      console.log(error.message);
+    });
+  }
+
+  private getOddTypes() {
     this.dataService.getOddTypes()
-      .subscribe((response => {
+      .subscribe(response => {
         this.oddTypes = response['data'].sort(this.byPriorityAsc);
-        this.oddTypes.forEach(oddType => {
-          oddType.odds.sort(this.byPriorityAsc);
-          oddType.odds.forEach(odd => {
-            odd.type = oddType.index;
-            this.odds.push(odd);
-          });
-        });
-    }));  
+        this.getOddsByOddTypes();
+    },
+    (error) => {
+      console.log(error.message);
+    });  
     
   }
 
-  byPriorityAsc(a, b) {
-    return a.priority - b.priority;
+  private getOddsByOddTypes() {
+    this.oddTypes.forEach(oddType => {
+      oddType.odds.sort(this.byPriorityAsc);
+      oddType.odds.forEach(odd => {
+        odd.type = oddType.index;
+        this.odds.push(odd);
+      });
+    });
   }
 
-  private getTreeData(){
-    this.dataService.getTreeData()
-    .subscribe((response => {
-        this.sports = response['data'].sort((a, b) =>  b - a);
-    }));
-  }
-  
   getCurrentLeagueMatches($event){
     var id = $event;
     this.dataService.getLeagueMatches(id)
     .subscribe(response => {
-      this.currentMatches = response['data'];
       this.hasMatches = true;
-      console.log(this.currentMatches);
-
+      this.currentMatches = response['data'];
       this.getCurrentLeagueOdds();
-
     },
     (error) => {
-      // console.log(error);
-      this.currentMatches = [];
       this.hasMatches = false;
+      this.currentMatches = [];
+      console.log(error.message);
     });
-    
   }
 
   getCurrentLeagueOdds(){
     this.resultSet = [];
 
     this.currentMatches.forEach((match, matchIndex) => {
-      this.resultSet.push(new Array<any>());
+      this.pushNewResultArray();
       for(let matchOddType in match.odds){
         let matchOdds = match.odds[matchOddType];
-        this.odds.forEach((oddName, index) => {
-          if(matchOddType === oddName.type){
-            for(let matchOddndex in matchOdds){
-              let matchOdd = matchOdds[matchOddndex];
-                if(matchOdd.name === oddName.id)
-                  this.resultSet[matchIndex][index] = matchOdd.value;
+        this.odds.forEach((odd, index) => {
+          if(matchOddType === odd.type){
+            for(let matchOddIndex in matchOdds){
+              let matchOdd = matchOdds[matchOddIndex];
+              if(matchOdd.name === odd.id)
+                this.resultSet[matchIndex][index] = matchOdd.value;
             }
           }
         });
-
       }
     });
-
-    this.resultSet.forEach((result, j)=> {
-      result[j].push(); //push matches and info
-    });
-
-    console.log(this.resultSet);
-
-    // this.currentMatches.forEach((match, i) => {
-    //   this.resultSet.forEach((result, j)=> {
-    //     console.log(this.resultSet[i][j]);
-    //   });
-    // });
-    
-
   }
+
+  private pushNewResultArray() {
+    this.resultSet.push(new Array<number>(this.odds.length));
+  }
+  
+  private byPriorityAsc(a, b) {
+    return a.priority - b.priority;
+  }
+
 }

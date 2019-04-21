@@ -8,9 +8,8 @@ import format from 'date-fns/format'
   styleUrls: ['./grid.component.scss']
 })
 export class GridComponent implements OnInit {
-  @Input() odds: Odd[];
-  //ideally this initially should have some default value sent from the server
   @Input() currentMatches: Match[];
+  @Input() odds: Odd[];
   @Input() hasMatches: boolean;
   @Input() resultSet: [];
 
@@ -18,11 +17,8 @@ export class GridComponent implements OnInit {
 
   ngOnInit() { }
 
-  formatDate(date: string): string {
+  private formatDate(date: string): string {
     return format(date, 'MM-DD HH:mm');
   }
 
-  ngAfterViewInit(){
-    console.log("view");
-  }
 }

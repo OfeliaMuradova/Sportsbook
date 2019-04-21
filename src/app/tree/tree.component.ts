@@ -19,7 +19,7 @@ export class TreeComponent implements OnInit {
     this.onLeagueClicked.emit(id);
   }
 
-  byAlphabetAsc(a, b){
+  private byAlphabetAsc(a, b){
       if(a.name < b.name) { return -1; }
       if(a.name > b.name) { return 1; }
       return 0;

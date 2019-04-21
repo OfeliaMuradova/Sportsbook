@@ -8,17 +8,17 @@
         </tr>
       </thead>
       <tbody *ngIf = "currentMatches.length">
-        <tr *ngFor = "let match of currentMatches; let i = index">
+        <tr *ngFor = "let match of currentMatches; let i = index;">
           <td>{{ formatDate(match.sd) }}</td>
           <td>{{ match.h }} : {{ match.a }}</td>
-          <td *ngFor = "let result of resultSet; let r = index;">
+          <td *ngFor = "let result of resultSet[i]; let r = index;">
             {{ resultSet[i][r] || "-"}}
           </td>
         </tr>
       </tbody>
       <tbody *ngIf = "!hasMatches || !currentMatches.length">
         <tr>
-          <td colspan = "14" class="text-center">No matches found!</td>
+          <td attr.colspan = "{{odds.length + 2 }}" class="text-center">No matches found!</td>
         </tr>
       </tbody>
     </table>

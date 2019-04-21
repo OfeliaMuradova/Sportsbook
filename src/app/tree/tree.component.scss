@@ -2,8 +2,8 @@ a, a:hover, a:focus {
     color: inherit;
     text-decoration: none;
     -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
 }
 
 a[data-toggle="collapse"] {
@@ -23,8 +23,8 @@ a[data-toggle="collapse"] {
     background: #272727;
     color: #b5b4b4;
     -webkit-transition: all 0.3s;
-    -o-transition: all 0.3s;
-    transition: all 0.3s;
+         -o-transition: all 0.3s;
+            transition: all 0.3s;
 
     .sidebar-header {
         padding: 20px;
@@ -96,23 +96,33 @@ ul ul a {
 ----------------------------------------------------- */
 @media (max-width: 768px) {
     #sidebar {
-        width: 100vw;
+        width: 100%;
+        position: relative;
+        background: transparent;
 
-        ul > li{
-            width: 33.333vw;
+        .sidebar-header{
+            padding: 10px;
+            text-align: center;
+        }
+
+        ul.components > li{
+            width: 33.3333%;
             background: #272727;
             display: block;
-            *display: block;    //<IE7
+            *display: block;
             float: left;
         }
-    }
-    
-    :host{
-        color: red;
-        display: block;
-        // margin-top: 300px; 
-        float: left;
-        position: absolute;
-    }
 
+        ul li a {
+            padding: 7px;
+        }
+
+        .components{
+            overflow: auto;
+            width: 98%;
+            margin: 0 auto;
+            margin-top: 1%;
+            background: #272727;
+        }
+    }
 }
